@@ -5,5 +5,78 @@ body {
     padding: 0;
     background-color: #f4f1ec;
     color: #121618;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
 
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 140px;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+}
+
+
+/* SECTION HERO */
+
+.hero {
+    display: flex;
+    background-color: #121618;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 140px;
+
+}
+
+.hero-left {
+    max-width: 516px;
+
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 48px;
+    color: #f4f1ec;
+    margin-bottom: 20px;
+}
+
+
+.main-text {
+    color: #f4f1ec;
+    margin-bottom: 80px;
+}
+
+.image-container {
+ 
+}
+
