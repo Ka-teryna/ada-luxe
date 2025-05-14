@@ -37,13 +37,20 @@ p {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 140px;
+    padding: 80px 140px;
 }
 
 .text {
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 0.03em;
+    margin-bottom: 80px;
+}
+
+.title {
+        font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
 
@@ -55,6 +62,7 @@ p {
     align-items: center;
     justify-content: flex-start;
     gap: 140px;
+    height: 504px;
 
 }
 
@@ -64,19 +72,61 @@ p {
 }
 
 .hero-title {
-    font-weight: 500;
-    font-size: 48px;
     color: #f4f1ec;
-    margin-bottom: 20px;
 }
-
 
 .main-text {
     color: #f4f1ec;
-    margin-bottom: 80px;
+    
 }
 
 .image-container {
+
  
 }
 
+/* Collection Highlights */
+
+.collection-title {
+    color: #a28140;
+}
+
+.collection-text {
+    color: #121618;
+}
+
+.collection-list {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.collection-item {
+flex-basis: calc(100/3 - 160px);
+}
+
+.title-img {
+    color: #a28140;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-img {
+font-weight: 600;
+font-size: 14px;
+line-height: 1.8;
+letter-spacing: 0.05em;
+color: #121618;
+margin-bottom: 51px;
+}
+
+.explore {
+    font-weight: 500;
+font-size: 16px;
+color: #f4f1ec;
+padding: 5px 10px;
+width: 181px;
+height: 31px;
+background-color: #a28140;
+margin-left: auto;
+}
